@@ -40,6 +40,7 @@ public class ModEvents {
                     entity.getMainHandItem().getItem() == Items.RED_CONCRETE_POWDER){
 
                 event.getEntity().addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 120, 3));
+                entity.getMainHandItem().shrink(1);
             }
         }
     }
