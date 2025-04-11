@@ -1,4 +1,4 @@
-package net.froggittybitty.dirtyfighting;
+package net.froggittybitty.dirty_fighting_mod;
 
 import java.util.List;
 import java.util.Set;
